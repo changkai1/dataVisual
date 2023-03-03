@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url("../images/grid.png");
+    }
+    div {
+      width: 200px;
+      height: 100px;
+      background-color: skyblue;
+      /* 修改坐标原点 */
+      transform: rotate(45deg);
+      /* 
+        left: 0 50%
+        bottom: 50% 100%
+      */
+      /* 更改坐标原点 */
+      transform-origin: left;
+      /* transform-origin: bottom; */
+    }
+  </style>
+  <body>
+    <div>div</div>
+  </body>
+</html>
